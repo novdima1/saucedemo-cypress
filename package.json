@@ -1,0 +1,16 @@
+{
+  "name": "saucedemo-cypress",
+  "version": "1.0.0",
+  "description": "Steps:\r Project init: npm init -y",
+  "main": "index.js",
+  "scripts": {
+    "open.cy": "cypress open",
+    "by.file": "cypress run --spec cypress/e2e/Login.cy.js --headed --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.2.1"
+  }
+}
